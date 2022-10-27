@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title> Intro component with sign up form</title>
+  
+</head>
+<body>
+
+  <main>
+    <div class="Text__Container">
+      <h1 class="Title">Learn to code by watching others</h1>
+      <p class="Paragraph">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+
+    <div class="Description__Container">
+      <p class="Description"><b class="Plan">Try it free 7 days</b> then $20/mo. thereafter</p>
+    </div>
+   
+      <form action="#" class="form">
+        <input type="text" name="First Name" placeholder="  First Name " class="nombre" required ><span class="Alerta_Texto" id="alertaNombre"><img src="./images/icon-error.svg" alt="error" class="Alerta__Icon Alerta__Icon_name"> First name cannot be empty</span>
+        <input type="text" name="Last Name" placeholder=" Last Name" class="apellido" required><span class="Alerta_Texto" id="alertaApellido"><img src="./images/icon-error.svg" alt="error" class="Alerta__Icon Alerta__Icon_last"> Last name cannot be empty</span>
+        <input type="email" name="email" id="email" placeholder=" Email Address" required><span class="Alerta_Texto" id="alertaEmail"><img src="./images/icon-error.svg" alt="error" class="Alerta__Icon Alerta__Icon_email"> Looks like this is not an email</span>
+        <input type="password" name="password" id="password" placeholder=" Password" required><span class="Alerta_Texto" id="alertaPassword"><img src="./images/icon-error.svg" alt="error" class="Alerta__Icon Alerta__Icon_password"> Password cannot be empty</span>
+        <button type="submit" id="submit" class="btn">Claim your free trial </button>
+        <p class="form__terminos">By clicking the button, you are agreeing to our<span class="Terms_and_Services">Terms and Services</span></p>
+      </form>
+   
+    
+  </main>
+
+
+  
+
+  
+
+
+
+  
+
+   
+  
+ <script src="js/app.js" defer></script>
+</body>
+</html>
